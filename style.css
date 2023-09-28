@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+    position: relative;
+}
+
+.elem {
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    cursor: pointer;
+}
+
+.elem h1:hover{
+    font-size: 6vw; 
+    color: rgb(178, 47, 182);
+    opacity: 1;
+    mix-blend-mode:difference;
+    transition-duration: 0.75s;
+
+}
+.elem img{
+    height: 94px;
+    width: 94px;
+    /* object-fit: cover; */
+    /* object-position:start; */
+    border-radius: 50%;
+    position:sticky;
+    opacity: 0;
+    transition: all linear 0.5s;
+
+}
